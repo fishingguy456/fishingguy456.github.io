@@ -8,3 +8,6 @@ body{
 .title{
     color:white;
 }
+nav ul li{
+    display: inline-block;
+}
