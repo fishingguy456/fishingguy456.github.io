@@ -1,13 +1,24 @@
 body{
     background-color: rgb(73, 73, 73);
 }
-.descriptions{
+.welcome{
     font-family: 'Times New Roman', Times, serif;
     color: white;
+    text-align: center;
 }
-.title{
-    color:white;
+.infotext{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+.foot{
+    text-align: center;
 }
 nav ul li{
+    text-align: center;
     display: inline-block;
+    background-color: black;
+}
+nav ul li a{
+    color: white;
 }
