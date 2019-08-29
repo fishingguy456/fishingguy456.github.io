@@ -22,3 +22,14 @@ nav ul li{
 nav ul li a{
     color: white;
 }
+.headingimage{
+    height: 24%;
+    width: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+.sitelogo{
+    border-radius: 50%;
+}
