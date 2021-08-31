@@ -1,5 +1,6 @@
 :root {
     --bg-colour: rgb(0, 0, 0);
+    --text-colour: rgb(255, 255, 255);
     font-family: 'Dosis', sans-serif;
 }
 
@@ -7,18 +8,27 @@ body{
     background: var(--bg-colour);
 }
 
+nav{
+    position:fixed;
+    padding: 5px;
+}
+
+.theme-toggle{
+    cursor: pointer;
+}
+
 #body{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
-
+    color: var(--text-colour);
 }
 
 #name{
     font-size: 20vmax;
     margin-bottom: -3vmax;
+    margin-top: 1vmax;
 }
 
 #description{
@@ -28,11 +38,12 @@ body{
 
 footer{
     text-align: center;
-    color:white;
+    color:var(--text-colour);
+    padding-bottom: 20px;
 }
 
 i{
-    color: white;
+    color: var(--text-colour);
     padding: 5px;
 }
 
