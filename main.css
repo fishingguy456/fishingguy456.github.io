@@ -1,66 +1,66 @@
 :root {
-    --bg-colour: rgb(0, 0, 0);
-    --text-colour: rgb(255, 255, 255);
-    font-family: 'Dosis', sans-serif;
+	--bg-colour: rgb(0, 0, 0);
+	--text-colour: rgb(255, 255, 255);
+	font-family: "Dosis", sans-serif;
 }
 
-body{
-    background: var(--bg-colour);
+body {
+	background: var(--bg-colour);
 }
 
-nav{
-    position:fixed;
-    padding: 5px;
+nav {
+	position: fixed;
+	padding: 5px;
 }
 
-.theme-toggle{
-    cursor: pointer;
+.theme-toggle {
+	cursor: pointer;
 }
 
-#body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: var(--text-colour);
+#body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: var(--text-colour);
 }
 
-#name{
-    font-size: 20vmax;
-    margin-bottom: -3vmax;
-    margin-top: 1vmax;
+#name {
+	font-size: 20vmax;
+	margin-bottom: -3vmax;
+	margin-top: 1vmax;
 }
 
-#description{
-    font-size: 2vmax;
-    padding-bottom: 1vmax;
+#description {
+	font-size: 2vmax;
+	padding-bottom: 1vmax;
 }
 
-footer{
-    text-align: center;
-    color:var(--text-colour);
-    padding-bottom: 20px;
+footer {
+	text-align: center;
+	color: var(--text-colour);
+	padding-bottom: 20px;
 }
 
-i{
-    color: var(--text-colour);
-    padding: 5px;
+i {
+	color: var(--text-colour);
+	padding: 5px;
 }
 
-#social-media{
-    display: flex;
-    flex-direction: row;
+#social-media {
+	display: flex;
+	flex-direction: row;
 }
 
-#resume{
-    width: 60vw;
-    height: 60vw;
-    text-align: center;
-    padding-top: 15px;
-    font-size: 1.5vw;
-    padding-bottom: 100px;
+#resume {
+	width: 60vw;
+	height: 60vw;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 1.5vw;
+	padding-bottom: 100px;
 }
 
-#resume-pdf{
-    padding-top: 15px;
+#resume-pdf {
+	padding-top: 15px;
 }
