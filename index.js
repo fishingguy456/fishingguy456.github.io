@@ -1,5 +1,5 @@
 let light;
-window.addEventListener('load', (event) => {
+document.addEventListener("DOMContentLoaded", () => {
     light = localStorage.getItem('light');
     if (light == 'false') { //dark in browser cache
         document.documentElement.style.setProperty('--bg-colour', 'rgb(0, 0, 0)');
