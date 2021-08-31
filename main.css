@@ -1,35 +1,48 @@
+:root {
+    --bg-colour: rgb(0, 0, 0);
+    font-family: 'Dosis', sans-serif;
+}
+
 body{
-    background-color: rgb(73, 73, 73);
+    background: var(--bg-colour);
+    min-height: 100vh;
 }
-.welcome{
-    font-family: 'Times New Roman', Times, serif;
+
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white
+}
+
+#name{
+    font-size: 20vmax;
+    margin-bottom: -3vmax;
+}
+
+#description{
+    font-size: 2vmax;
+    padding-bottom: 1vmax;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: white;
     text-align: center;
+    white-space: pre;
+    padding-bottom: 5px;
 }
-.infotext{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    text-align: center;
+
+i{
+    color:white;
+    padding: 5px;
 }
-.foot{
-    text-align: center;
-}
-nav ul li{
-    text-align: center;
-    display: inline-block;
-    background-color: black;
-}
-nav ul li a{
-    color: white;
-}
-.headingimage{
-    height: 24%;
-    width: 18%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 50%;
-}
-.sitelogo{
-    border-radius: 50%;
+
+#social-media{
+    display: flex;
+    flex-direction: row;
 }
