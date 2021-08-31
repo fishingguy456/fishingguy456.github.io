@@ -29,11 +29,13 @@ nav {
 	font-size: 20vmax;
 	margin-bottom: -3vmax;
 	margin-top: 1vmax;
+    text-align: center;
 }
 
 #description {
 	font-size: 2vmax;
 	padding-bottom: 1vmax;
+    text-align: center;
 }
 
 footer {
