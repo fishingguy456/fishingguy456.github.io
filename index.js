@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function toggleTheme() {
-    light = localStorage.getItem('light');
-    if (light == 'true') { //light to dark
+    light = localStorage.getItem('light'); //retruns false if it doesn't exist
+    if (light == 'true' || !light) { //light to dark
         localStorage.setItem('light', 'false');
         document.documentElement.style.setProperty('--bg-colour', 'rgb(0, 0, 0)');
         document.documentElement.style.setProperty('--text-colour', 'rgb(255, 255, 255)');
