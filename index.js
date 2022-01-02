@@ -1,4 +1,3 @@
-let light;
 document.addEventListener("DOMContentLoaded", () => {
     light = localStorage.getItem('light');
     if (light == 'false') { //dark in browser cache

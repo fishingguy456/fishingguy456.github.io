@@ -38,6 +38,12 @@ nav {
     text-align: center;
 }
 
+#pdf-download{
+	font-size: 1vmax;
+	color: var(--text-colour);
+	text-align: center;
+}
+
 footer {
 	text-align: center;
 	color: var(--text-colour);
